@@ -1965,6 +1965,16 @@ input, select, textarea {
 		left: auto !important;
 	}
 
+	#header .major{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		overflow-wrap: break-word;
+		@media screen and (max-width: 460px) {
+			font-size: 14px;
+		}
+	}
+
 		header.major h1, header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
 			position: relative;
 		}
